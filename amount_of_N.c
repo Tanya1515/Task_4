@@ -26,7 +26,6 @@ int main(int argc, char* argv[])
         }
         if (letter != 'N')
         {   
-            printf("number_of_consecutive_N %d\n", number_of_consecutive_N);
             if (number_of_consecutive_N > 50)
                 amount_of_repeat = amount_of_repeat + 1;
             number_of_consecutive_N = 0;
